@@ -63,14 +63,6 @@ Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:
 
 ### ✅ 1. Clone hoặc tải dự án
 ```bash
-git clone 
----
-
-## 💻 Cách chạy ứng dụng
-
-### ✅ 1. Clone hoặc tải dự án
-
-```bash
 git clone https://github.com/SaiCTruong/BankistWebsite.git
 
 ### ✅ 2. Mở file index.html
