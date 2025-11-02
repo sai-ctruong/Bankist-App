@@ -10,7 +10,7 @@ giúp người dùng **đăng nhập, chuyển tiền, vay tiền** và **xem th
 ## 🚀 Live Demo
 
 Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:  
-**👉 [Xem Demo Ngay!](https://saictruong.github.io/BankistWebsite/) 👈**
+**👉 [Xem Demo Ngay!](https://saictruong.github.io/BankistApp/) 👈**
 
 ---
 
@@ -60,42 +60,47 @@ Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:
 
 ---
 
-## 💻 Cách chạy ứng dụng
+## 📖 Hướng Dẫn Sử Dụng (User Guide)
 
-Đây là một **dự án tĩnh**, không cần server hay framework.
+### 1. Khởi chạy Ứng Dụng
+1.  **Clone (tải) dự án này về:**
+    ```bash
+    git clone https://github.com/SaiCTruong/BankistApp.git
+    ```
+2.  Mở thư mục dự án trong VS Code và dùng **Live Server**, hoặc mở trực tiếp file `index.html` bằng trình duyệt.
 
-### ✅ 1. Clone hoặc tải dự án
-```bash
-git clone 
----
+### 2. Đăng Nhập
+Sử dụng một trong các tài khoản demo có sẵn dưới đây để đăng nhập:
 
-## 💻 Cách chạy ứng dụng
+| Chủ tài khoản | Username | PIN |
+| :--- | :--- | :--- |
+| Jonas Schmedtmann | `js` | `1111` |
+| Phạm Công Trường | `pct` | `1208` |
+| Nguyễn Nhật Thiên | `nnt` | `2105` |
+| Lê Quốc Khánh | `lqk` | `3004` |
 
-### ✅ 1. Clone hoặc tải dự án
+### 3. Sử Dụng Các Tính Năng Chính
+Sau khi đăng nhập thành công:
 
-```bash
-git clone https://github.com/SaiCTruong/BankistWebsite.git
-```
+* **💸 Chuyển Tiền (Transfer money):**
+    * **Transfer to:** Nhập `username` của người nhận (ví dụ: `pct`, `nnt`).
+    * **Amount:** Nhập số tiền muốn chuyển (ví dụ: `100000`).
+    * Bấm nút `&rarr;` để xác nhận.
 
-### ✅ 2. Mở file index.html
-**Chạy trực tiếp bằng trình duyệt hoặc dùng VS Code với Live Server.**
+* **💰 Vay Tiền (Request loan):**
+    * **Amount:** Nhập số tiền muốn vay (ví dụ: `500000`).
+    * *Lưu ý:* Bạn chỉ có thể vay nếu có ít nhất 1 giao dịch nạp tiền (deposit) >= 10% số tiền muốn vay.
 
-### ✅ 3. Đăng nhập với tài khoản mẫu
-Dưới đây là danh sách các tài khoản **demo** có sẵn trong hệ thống:
+* **❌ Đóng Tài Khoản (Close account):**
+    * **Confirm user:** Nhập `username` của *chính bạn* (ví dụ: `js`).
+    * **Confirm PIN:** Nhập `PIN` của *chính bạn* (ví dụ: `1111`).
+    * Bấm nút `&rarr;` để xác nhận xóa tài khoản.
 
-| Chủ tài khoản | Username | PIN  |
-|----------------|-----------|------|
-| Jonas Schmedtmann | js | 1111 |
-| Phạm Công Trường | pct | 1208 |
-| Nguyễn Nhật Thiên | nnt | 2105 |
-| Lê Quốc Khánh | lqk | 3004 |
+* **⇅ Sắp Xếp (Sort):**
+    * Bấm nút `&downarrow; SORT` ở cuối danh sách giao dịch để sắp xếp các giao dịch theo thứ tự từ thấp đến cao. Bấm lần nữa để trở về mặc định.
 
-Sau khi đăng nhập, bạn có thể:
-- Xem danh sách giao dịch (deposit/withdrawal)
-- Chuyển tiền giữa các tài khoản
-- Vay tiền và xem lãi suất
-- Đóng tài khoản
-- Sắp xếp giao dịch (Sort)
+* **⏱️ Tự Động Đăng Xuất:**
+    * Nếu bạn không thực hiện bất kỳ hành động nào trong 5 phút, ứng dụng sẽ tự động đăng xuất để bảo mật.
 
 ---
 
