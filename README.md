@@ -1,7 +1,10 @@
-# 💰 Bankist Website
+## 💰 Bankist Website
 
-Một ứng dụng **giả lập ngân hàng trực tuyến (Bankist)** được viết bằng **HTML, CSS và JavaScript**, giúp người dùng đăng nhập, chuyển tiền, vay tiền và xem thống kê tài chính theo thời gian thực.  
-Đây là bản **tùy chỉnh lại từ dự án gốc của Jonas Schmedtmann**, với **đơn vị tiền tệ VND**
+Một ứng dụng **giả lập ngân hàng trực tuyến (Bankist)** được viết bằng **HTML**, **CSS** và **JavaScript**,  
+giúp người dùng **đăng nhập, chuyển tiền, vay tiền** và **xem thống kê tài chính theo thời gian thực**.  
+
+> 🧩 Dự án này được **tùy chỉnh lại** từ phiên bản gốc của *Jonas Schmedtmann*, với **đơn vị tiền tệ: VND**.
+
 ---
 
 ## 🚀 Live Demo
