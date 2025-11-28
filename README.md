@@ -10,7 +10,7 @@ giúp người dùng **đăng nhập, chuyển tiền, vay tiền** và **xem th
 ## 🚀 Live Demo
 
 Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:  
-**👉 [Xem Demo Ngay!](https://saictruong.github.io/BankistApp/) 👈**
+**👉 [Xem Demo Ngay!](https://sai-ctruong.github.io/Bankist-App/) 👈**
 
 ---
 
