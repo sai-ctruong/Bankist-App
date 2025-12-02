@@ -119,12 +119,12 @@ Sau khi đăng nhập thành công:
 
 ## 🧑‍💻 Tác giả
 
-* **Phạm Công Trường** - [SaiCTruong](https://github.com/SaiCTruong)
+* **Phạm Công Trường** - [SaiCTruong](https://github.com/sai-ctruong)
 
 ---
 
 ## 🏁 Giấy phép
 
 Dự án được sử dụng **phi thương mại** cho **mục đích học tập và nghiên cứu**.  
-**Bản gốc** thuộc quyền sở hữu của *Jonas Schmedtmann*.  
+
 
