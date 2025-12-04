@@ -10,7 +10,7 @@ giúp người dùng **đăng nhập, chuyển tiền, vay tiền** và **xem th
 ## 🚀 Live Demo
 
 Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:  
-**👉 [Xem Demo Ngay!](https://sai-ctruong.github.io/Bankist-App/) 👈**
+**👉 [Xem Demo Ngay!](https://sai-ctruong.github.io/Bankist-App) 👈**
 
 ---
 
@@ -65,7 +65,7 @@ Bạn có thể trải nghiệm ứng dụng trực tiếp tại đây:
 ### 1. Khởi chạy Ứng Dụng
 1.  **Clone (tải) dự án này về:**
     ```bash
-    git clone https://github.com/SaiCTruong/BankistApp.git
+    git clone https://github.com/sai-ctruong/Bankist-App.git
     ```
 2.  Mở thư mục dự án trong VS Code và dùng **Live Server**, hoặc mở trực tiếp file `index.html` bằng trình duyệt.
 
